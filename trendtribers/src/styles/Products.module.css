@@ -1,0 +1,24 @@
+.item{
+    /* display: grid; */
+    margin: 10px;
+    cursor: pointer;
+    /* align-content: end; */
+    /* height: 500px; */
+}
+.item > img:hover {
+    opacity: 0.5;
+}
+.cartBtn{
+    /* align-self: bottum; */
+    align-self: end;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #ffd84d;
+    color: black;
+    padding: 0px 5px;
+}
+.cartBtn:hover{
+    background-color: #ffae00;
+    color: black;
+}

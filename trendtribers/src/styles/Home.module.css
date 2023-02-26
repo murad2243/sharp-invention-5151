@@ -1,0 +1,14 @@
+.slideImg{
+    display: flex;
+    justify-content: center;
+}
+.slideImg > img{
+    width: 33%;
+}
+.bestSeller{
+    display: flex;
+    justify-content: space-around;
+}
+.bestSeller  img{
+    height: 250px;
+}
